@@ -1,0 +1,6 @@
+Site,HTTP Status,Strict-Transport-Security,Content-Security-Policy,X-Frame-Options,X-Content-Type-Options,Referrer-Policy,Permissions-Policy,CORS Status,CORS Note,Score,Grade
+example.com,200,MISSING,MISSING,MISSING,MISSING,MISSING,MISSING,SAFE,No unsafe CORS behaviour found,10,F
+httpbin.org,200,MISSING,MISSING,MISSING,MISSING,MISSING,MISSING,CRITICAL,Reflects untrusted origin 'https://evil-attacker.example' WITH credentials allowed,0,F
+www.wikipedia.org,200,Present,MISSING,MISSING,MISSING,MISSING,MISSING,SAFE,No unsafe CORS behaviour found,30,F
+github.com,200,Present,Present,Present,Present,Present,MISSING,SAFE,No unsafe CORS behaviour found,90,A
+www.python.org,200,Present,MISSING,Present,MISSING,MISSING,MISSING,SAFE,No unsafe CORS behaviour found,45,D
